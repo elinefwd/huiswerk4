@@ -1,0 +1,215 @@
+/*Paars #5722CD;
+Blauw #4845E4;
+Roze #ED4385;
+Zwart #0C0C0C (voor standaard tekst);
+Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:
+                                                                                 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
+Grijs #7A7A7A (voor de service-tegel tekst);*/
+
+/* altijd eerst een css reset*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Merriweather', sans-serif;
+    align-content: center;
+}
+
+body h3 h4 {
+    font-family: "Roboto Light", sans-serif;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+div{
+    display: flex;
+    width: 900px;
+    flex-shrink: 1 ;
+    flex-grow: 0 ;
+    flex-direction: column;
+    margin: 200px;
+    align-content: center;
+}
+
+
+.divflex1 {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.button {
+    display: flex;
+    align-items: center;
+    width: 40px;
+
+}
+
+
+nav {
+    display: flex;
+ justify-content: flex-end;
+    height: 100px;
+    align-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-basis: 400px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+h1{
+    display: flex;
+    font-size: xxx-large;
+    align-items: center;
+}
+
+
+h2{
+    display: flex;
+    align-items: center;
+}
+/*main*/
+
+.image-wrapper {
+    display: flex;
+    resize: block;
+    block-size: 25px 25px;
+    justify-content: center;
+}
+
+.divflex2 {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+h4  { display: flex;
+justify-content: center;
+margin: 50px
+}
+
+p { display: flex;
+    justify-content: center;
+    margin: 50px
+}
+
+
+/*row reverse*/
+article {
+    display: flex;
+}
+
+.article-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    background-color: aqua;
+    padding: 25px;
+}
+
+
+
+.article-items2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 500px;
+    background-color: aqua;
+    padding: 25px;
+}
+
+.article-item1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 25px;
+    margin: 50px;
+}
+
+
+.image-wrapper2 {
+        display: flex;
+    flex-basis: 600px;
+    height: 400px;
+        justify-content: flex-end;
+        width: 400px;
+    padding: 25px;
+    }
+
+.article-item2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* here 6 clickboxes */
+
+.divflex3 {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height:600px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+section {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+
+
+textarea {
+    display: flex;
+    height: 120px;
+    width: 195px;
+}
+
+
+/*form*/
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* niet helemaal af wegens tijdgebrek/*
